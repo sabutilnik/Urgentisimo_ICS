@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lista1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/etnombre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:hint="tipo"
+            android:layout_marginTop="10dip"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/guardar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:src="@drawable/save_m" />
+
+    </LinearLayout>
+
+        <EditText
+     android:id="@+id/etdescripcion"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:hint="descripcion"
+     android:textAppearance="?android:attr/textAppearanceSmall" />
+
+ <EditText
+     android:id="@+id/etfiltro"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:hint="filtro"
+     android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+
+    
+ <View style="@style/Divider"/>
+
+ 
+                    <ScrollView
+                        android:id="@+id/scrollView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/sublist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="vertical" >
+                        </LinearLayout>
+                    </ScrollView>
+
+</LinearLayout>

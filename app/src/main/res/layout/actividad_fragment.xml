@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lista1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/act_hecha_b" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/actividadname"
+                android:hint="actividad nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                
+                 />
+
+            <EditText
+                android:id="@+id/descripcion"
+                android:hint="descripción"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" 
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                />
+            
+        </LinearLayout>
+        
+		<LinearLayout
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+		     >
+        <ImageView
+            android:id="@+id/guarda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:clickable="true"
+            android:src="@drawable/save_m" />
+<!--               <ImageView -->
+<!--             android:id="@+id/guardanuevo" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--                         android:layout_margin="5dip" -->
+<!--             android:clickable="true" -->
+<!--             android:src="@drawable/saveas" /> -->
+              </LinearLayout>
+        
+    </LinearLayout>
+
+        <LinearLayout
+        android:clickable="true"
+        android:id="@+id/llfechas"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/fhinicio"
+            android:layout_width="0dp"
+            android:hint="fecha de inicio"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/siguiente_s" />
+
+        <TextView
+            android:id="@+id/fhfin"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:hint="fecha de fin"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    
+                <View
+    android:id="@+id/separator"
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="25dip"
+    android:layout_marginRight="25dip"
+    android:background="@drawable/divider" />
+
+                <ScrollView
+                    android:id="@+id/scrollView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                    
+                    
+                    
+                    
+                        <LinearLayout
+        android:clickable="true"
+        android:id="@+id/llactgeneral"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="15dip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/actg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Actividad General"
+             />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/siguiente_s" />
+
+        <TextView
+            android:id="@+id/tvactgen"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="Actividad General" />
+    </LinearLayout>
+
+            <View
+    android:id="@+id/separator"
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="25dip"
+    android:layout_marginRight="25dip"
+    android:background="@drawable/divider" />
+    
+    
+    <LinearLayout
+        android:clickable="true"
+        android:id="@+id/lltactividad"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="15dip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/tat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Tipo de Actividad"
+             />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/siguiente_s" />
+
+        <TextView
+            android:id="@+id/tvtactividad"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="tipo " />
+    </LinearLayout>
+    
+        <View
+    android:id="@+id/separator"
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="25dip"
+    android:layout_marginRight="25dip"
+    android:background="@drawable/divider" />
+            
+    
+        <LinearLayout
+            android:id="@+id/llagrupamiento"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="15dip"
+            android:clickable="true"
+            android:textAppearance="?android:attr/textAppearanceSmall" >
+
+        <TextView
+            android:id="@+id/agrup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Agrupamiento"
+             />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/siguiente_s" />
+
+        <TextView
+            android:id="@+id/tvagrupamiento"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="Agrupamiento" />
+    </LinearLayout>
+    
+        
+       
+  <View
+    android:id="@+id/separator"
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="25dip"
+    android:layout_marginRight="25dip"
+    android:background="@drawable/divider" />
+
+
+        <TextView
+            android:id="@+id/tvgrupos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:drawableRight="@drawable/siguiente_m"
+            android:text="Grupos" />
+        
+                <View
+    android:id="@+id/separator"
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="25dip"
+    android:layout_marginRight="25dip"
+    android:background="@drawable/divider" />
+
+  	<LinearLayout
+        android:clickable="true"
+        android:id="@+id/gruposlist"
+        android:orientation="vertical"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >        
+
+    </LinearLayout>
+
+  	
+  	
+  	
+        <TextView
+            android:id="@+id/tvcriterios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:drawableRight="@drawable/siguiente_m"
+            android:text="Criterios" />
+        
+                <View
+    android:id="@+id/separator"
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="25dip"
+    android:layout_marginRight="25dip"
+    android:background="@drawable/divider" />
+
+  	<LinearLayout
+        android:clickable="true"
+        android:id="@+id/criterioslist"
+        android:orientation="vertical"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >        
+
+    </LinearLayout>
+    
+  	
+  	
+  	
+  	
+  	
+        <TextView
+            android:id="@+id/tvmateriales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:drawableRight="@drawable/siguiente_m"
+            android:text="Materiales" />
+        
+                <View
+    android:id="@+id/separator"
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="25dip"
+    android:layout_marginRight="25dip"
+    android:background="@drawable/divider" />
+
+  	<LinearLayout
+        android:clickable="true"
+        android:id="@+id/materialeslist"
+        android:orientation="vertical"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >        
+
+    </LinearLayout>
+  	
+   </LinearLayout>                 
+                </ScrollView>
+    
+
+  	
+  	
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/campo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="campo"
+        android:clickable="true"
+         />
+    <TextView
+        android:id="@+id/campo"
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"
+        android:text=" : "
+        android:clickable="true"
+         />
+    <EditText
+        android:id="@+id/etvalor"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0pt" 
+        />
+    <TextView
+        android:id="@+id/valor"
+        android:layout_width="0pt"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <DatePicker
+        android:id="@+id/dpvalor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spvalor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</TableRow>

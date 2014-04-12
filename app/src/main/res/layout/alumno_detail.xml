@@ -1,0 +1,415 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/alumno_foto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/alumno_foto" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/reportes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:src="@drawable/evaluacion_m" />
+
+                <ImageView
+                    android:id="@+id/camara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:src="@drawable/photo_m" />
+
+                <ImageView
+                    android:id="@+id/guardar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:src="@drawable/save_m" />
+
+                <ImageView
+                    android:id="@+id/borrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:layout_weight="1"
+                    android:src="@drawable/del_user_m" />
+
+                <EditText
+                    android:id="@+id/clase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/etnumclase"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etnombre"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:inputType="textPersonName" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etapellido"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:inputType="textPersonName" >
+                </EditText>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etdireccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/home_s"
+                android:padding="2dp"
+                android:textSize="15dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/ettelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/telephone_s"
+                android:padding="2dp"
+                android:inputType="phone"
+                android:textSize="15dp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/etemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/mail_s"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:padding="2dp"
+                android:textSize="15dp" >
+                >
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+        <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout 
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >    
+    <LinearLayout
+        android:id="@+id/padres"
+        android:layout_marginLeft="10dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+         <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:drawableLeft="@drawable/padres_s"
+            android:text="Padres"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/llpadres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/etpadre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:drawableRight="@drawable/alumno_s"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="el padre" >
+
+                    <requestFocus />
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etpadretel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:drawableRight="@drawable/telephone_s"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:text="telpadre" />
+
+                <EditText
+                    android:id="@+id/etpadremail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:drawableRight="@drawable/mail_s"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:text="mailpadre" />
+
+                <EditText
+                    android:id="@+id/etmadre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:drawableLeft="@drawable/madre_s"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="la mamá" />
+
+                <EditText
+                    android:id="@+id/etmadretel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:drawableLeft="@drawable/telephone_s"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:text="la mamá" />
+
+                <EditText
+                    android:id="@+id/etmadremail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:drawableLeft="@drawable/mail_s"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:text="la mamá" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/permisos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:drawableLeft="@drawable/permisos_s"
+            android:text="Permisos"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llpermisos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvcomedor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/delete_s"
+                android:text="comedor"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvsoloacasa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:layout_weight="1"
+                android:text="solo a casa"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvcompensatoria"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:layout_weight="1"
+                android:text="compensatoria"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvacnee"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:layout_weight="1"
+                android:text="acnee"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvblog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:layout_weight="1"
+                android:text="permiso blog"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvrefuerzo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:layout_weight="1"
+                android:text="refuerzo"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+<!--         <TextView -->
+<!--             android:id="@+id/textviewx" -->
+<!--             android:layout_width="0dp" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_margin="6dip" -->
+<!--             android:layout_weight="1" -->
+<!--             android:text="Extraescolares" -->
+<!--             android:textAppearance="?android:attr/textAppearanceSmall" /> -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:layout_weight="1"
+                android:text="L"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:layout_weight="1"
+                android:text="M"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvx"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:layout_weight="1"
+                android:text="X"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvj"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:layout_weight="1"
+                android:text="J"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:layout_weight="1"
+                android:text="V"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- </LinearLayout> -->
+
+    <LinearLayout
+        android:id="@+id/grupostitle"
+        android:layout_margin="10dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:drawableLeft="@drawable/grupo_s"
+            android:text="Grupos"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/addgrupo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/add_m" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llgrupos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+    </LinearLayout>
+    
+        </ScrollView>
+
+</LinearLayout>

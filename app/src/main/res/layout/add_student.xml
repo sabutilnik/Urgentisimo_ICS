@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+android:weightSum="1">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:id="@+id/linearLayout3">
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout2" android:layout_height="139dp" android:layout_weight="0">
+            <ImageView android:src="@drawable/alumno" android:id="@+id/imageView1" android:layout_width="114dp" android:layout_height="114dp"></ImageView>
+            <LinearLayout android:id="@+id/linearLayout5" android:layout_width="match_parent" android:orientation="vertical" android:layout_height="wrap_content">
+                <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout6" android:layout_gravity="right" android:baselineAligned="false" android:layout_width="wrap_content">
+                    <ImageButton android:layout_height="wrap_content" android:src="@drawable/photo" android:layout_width="wrap_content" android:id="@+id/imageButton1"></ImageButton>
+                    <ImageButton android:layout_height="wrap_content" android:src="@drawable/del_user" android:layout_width="wrap_content" android:id="@+id/imageButton3"></ImageButton>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Nombre"></TextView>
+        <EditText android:inputType="textPersonName" android:layout_weight="1" android:id="@+id/studentNameEditText" android:layout_height="0dp" android:layout_width="match_parent"></EditText>    
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Dirección:" android:id="@+id/addressstextt"> </TextView>
+
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="textPersonName" android:id="@+id/studentAddressEditText">
+            <requestFocus></requestFocus>
+        </EditText>
+        <TextView android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Teléfono:"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_width="match_parent">
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="phone" android:id="@+id/studentPhoneEditText"></EditText>
+        <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:text="Grupos: " android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout4" android:orientation="vertical">
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout7"></LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

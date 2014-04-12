@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+	<!-- <ScrollView android:id="@+id/ScrollView02" -->
+	<!-- android:layout_width="fill_parent" android:layout_height="wrap_content"> -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/searchField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Filtrar..."
+            android:ems="10" >
+        </EditText>
+        
+            <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp" >
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_margin="10px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="4"
+            android:text="Actividad"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_margin="10px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:text="ordenadopor"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+        <ListView
+            android:id="@+id/grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:columnWidth="80px"
+            android:horizontalSpacing="5px"
+            android:numColumns="auto_fit"
+            android:orientation="vertical"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10px" >
+        </ListView>
+
+    </LinearLayout>
+
+     <RelativeLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/act_container"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:orientation="horizontal" >
+
+                 </RelativeLayout>
+
+	<!-- </ScrollView> -->
+</LinearLayout>

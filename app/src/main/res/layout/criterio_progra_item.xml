@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dip" 
+    >
+
+    <LinearLayout
+        android:id="@+id/objetivo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+         >
+         
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ Objetivo"
+            android:layout_weight="4"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/etToc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ddd"/>
+
+        <ImageView
+            android:id="@+id/editItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/save" />
+
+        <ImageView
+            android:id="@+id/delItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:src="@android:drawable/ic_delete" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

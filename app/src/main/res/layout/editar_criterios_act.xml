@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<!-- <ScrollView android:id="@+id/ScrollView02" -->
+	<!-- android:layout_width="fill_parent" android:layout_height="wrap_content"> -->
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<ImageView android:layout_width="wrap_content" android:src="@drawable/programacion"
+			android:id="@+id/imageView1" android:layout_height="wrap_content"></ImageView>
+
+
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="CRITERIOS" />
+		<ImageButton android:layout_height="wrap_content"
+			android:id="@+id/imageButton1" android:layout_width="wrap_content"
+			android:src="@drawable/add_criterio"
+			android:onClick="addCriterio"
+			/>
+		<ImageButton android:layout_height="wrap_content"
+			android:id="@+id/imageButton2" android:layout_width="wrap_content"
+			android:src="@drawable/del_criterio"
+			android:onClick="delCriterio"
+			></ImageButton>
+
+	</LinearLayout>
+	<Spinner android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/criteriosSpinner"></Spinner>
+
+	<ScrollView android:id="@+id/scrollView43"
+		android:layout_height="wrap_content" android:layout_width="match_parent">
+		<LinearLayout android:id="@+id/listaCriterios"
+			android:layout_width="match_parent" android:layout_height="match_parent"
+			android:orientation="vertical">
+		</LinearLayout>
+	</ScrollView>
+	<!-- <Button android:text="Guardar" android:id="@+id/button1" -->
+	<!-- android:layout_width="wrap_content" android:layout_height="wrap_content"></Button> -->
+	<!-- </ScrollView> -->
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uno.Urgentisimo.CheckableLinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dip"
+    android:orientation="horizontal"
+    android:padding="1dp"  >
+
+    <TextView
+        android:id="@+id/tvCampo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:layout_weight="5"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <CheckBox
+        android:id="@+id/ckmiembro"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="35dp" />
+
+</uno.Urgentisimo.CheckableLinearLayout>

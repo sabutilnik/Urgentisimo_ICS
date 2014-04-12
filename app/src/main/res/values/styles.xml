@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="SpinnerTextViewItem" parent="@android:style/Widget.TextView" >
+    <item name="android:layout_marginTop"> 8dip </item>
+    <item name="android:layout_marginBottom"> 8dip </item>
+    <item name="android:textSize"> 18sp </item>
+</style>
+
+<style name="ImageAction"  >
+    <item name="android:layout_margin">5dip </item>
+    <item name="android:clickable"> true </item>
+</style>
+
+<style name="Divider">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">4dp</item>
+    <item name="android:background">?android:attr/listDivider</item>
+</style>
+</resources>

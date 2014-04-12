@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uno.Urgentisimo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+<uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity android:name="studentsActivity" android:label="Alumnos "> -->
+        <!-- </activity> -->
+        <activity
+            android:name="StudentShowActivity"
+            android:label="Datos del alumno " >
+        </activity>
+        <activity
+            android:name="GruposActivity"
+            android:label="Grupos" >
+        </activity>
+        <activity
+            android:name="EditarGruposActivity"
+            android:label="Edita grupos" >
+        </activity>
+        <activity
+            android:name="EditarCriterios"
+            android:label="Edita criterios" >
+        </activity>
+        <activity
+            android:name="GruposAlumnoActivity"
+            android:label="Grupos por alumno" >
+        </activity>
+        <activity
+            android:name="PopulateTablesActivity"
+            android:label="Programación" >
+        </activity>
+        <activity
+            android:name="CriteriosActivity"
+            android:label="Programación - Criterios" >
+        </activity>
+        <activity
+            android:name="ProgramacionActivity"
+            android:label="Programación" >
+        </activity>
+        <activity
+            android:name="AddObjetivoActivity"
+            android:label="Programación - Objetivos" >
+        </activity>
+        <activity
+            android:name="AddContenidoActivity"
+            android:label="Programación - Contenidos" >
+        </activity>
+        <activity
+            android:name="AddCriteriosActivity"
+            android:label="Programación - Criterios" >
+        </activity>
+        <activity
+            android:name="AddActividadActivity"
+            android:label="Programación - Actividades" >
+        </activity>
+        <activity
+            android:name="ActividadActivity"
+            android:label="Programación - Actividades" >
+        </activity>
+        <activity
+            android:name="EvalAlumnosActivity"
+            android:label="Programación - Evaluación" >
+        </activity>
+    </application>
+
+</manifest>

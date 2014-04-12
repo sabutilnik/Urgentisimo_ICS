@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		
+		android:layout_height="wrap_content">
+		<ImageView android:layout_width="wrap_content" android:src="@drawable/grupos_big"
+			android:id="@+id/imageView1" android:layout_height="wrap_content"></ImageView>
+
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_weight="1"
+			android:id="@+id/textView1" android:text="GRUPOS"></TextView>
+
+		<ImageButton android:layout_width="wrap_content"
+			android:src="@drawable/add_user" android:id="@+id/addUser"
+			android:layout_height="wrap_content" android:onClick="addUser"></ImageButton>
+
+
+		<!-- <ImageButton android:layout_width="wrap_content" -->
+		<!-- android:src="@drawable/grupo" android:id="@+id/addGroup" -->
+		<!-- android:layout_height="wrap_content" android:onClick="addGrupo"></ImageButton> -->
+		<ImageButton android:layout_height="wrap_content"
+			android:id="@+id/imageButton1" android:layout_width="wrap_content"
+			android:src="@drawable/add_group"
+			android:onClick="addGrupo"
+			></ImageButton>
+	</LinearLayout>
+	<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FFEEEEEE"
+/>
+	<ScrollView android:id="@+id/ScrollView02"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/gruposListado">
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

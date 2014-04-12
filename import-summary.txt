@@ -1,0 +1,1378 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .directory
+* Urgentisimo/
+* Urgentisimo/.classpath
+* Urgentisimo/.directory
+* Urgentisimo/.project
+* Urgentisimo/.settings/
+* Urgentisimo/.settings/.svn/
+* Urgentisimo/.settings/.svn/all-wcprops
+* Urgentisimo/.settings/.svn/entries
+* Urgentisimo/.settings/.svn/text-base/
+* Urgentisimo/.settings/.svn/text-base/org.eclipse.core.resources.prefs.svn-base
+* Urgentisimo/.settings/.svn/text-base/org.eclipse.jdt.core.prefs.svn-base
+* Urgentisimo/.settings/org.eclipse.core.resources.prefs
+* Urgentisimo/.settings/org.eclipse.jdt.core.prefs
+* Urgentisimo/.svn/
+* Urgentisimo/.svn/all-wcprops
+* Urgentisimo/.svn/entries
+* Urgentisimo/.svn/prop-base/
+* Urgentisimo/.svn/prop-base/criterioInfo.java.svn-base
+* Urgentisimo/.svn/prop-base/eval_criterio_item.xml.svn-base
+* Urgentisimo/.svn/prop-base/eval_subitem.xml.svn-base
+* Urgentisimo/.svn/prop-base/evaluacion_act.xml.svn-base
+* Urgentisimo/.svn/prop-base/project.properties.svn-base
+* Urgentisimo/.svn/prop-base/show_act_item.xml.svn-base
+* Urgentisimo/.svn/prop-base/show_actividad_act.xml.svn-base
+* Urgentisimo/.svn/text-base/
+* Urgentisimo/.svn/text-base/.classpath.svn-base
+* Urgentisimo/.svn/text-base/.directory.svn-base
+* Urgentisimo/.svn/text-base/.project.svn-base
+* Urgentisimo/.svn/text-base/AndroidManifest.xml.svn-base
+* Urgentisimo/.svn/text-base/criterioInfo.java.svn-base
+* Urgentisimo/.svn/text-base/default.properties.svn-base
+* Urgentisimo/.svn/text-base/eval_criterio_item.xml.svn-base
+* Urgentisimo/.svn/text-base/eval_subitem.xml.svn-base
+* Urgentisimo/.svn/text-base/evaluacion_act.xml.svn-base
+* Urgentisimo/.svn/text-base/proguard.cfg.svn-base
+* Urgentisimo/.svn/text-base/project.properties.svn-base
+* Urgentisimo/.svn/text-base/show_act_item.xml.svn-base
+* Urgentisimo/.svn/text-base/show_actividad_act.xml.svn-base
+* Urgentisimo/AndroidManifest.xml
+* Urgentisimo/assets/
+* Urgentisimo/assets/.directory
+* Urgentisimo/assets/.svn/
+* Urgentisimo/assets/.svn/all-wcprops
+* Urgentisimo/assets/.svn/entries
+* Urgentisimo/assets/.svn/prop-base/
+* Urgentisimo/assets/.svn/prop-base/urgentisimo.db.svn-base
+* Urgentisimo/assets/.svn/prop-base/urgentisimo.db_alt.svn-base
+* Urgentisimo/assets/.svn/prop-base/urgentisimo.svn-base
+* Urgentisimo/assets/.svn/prop-base/urgentisimo_datos.db.svn-base
+* Urgentisimo/assets/.svn/prop-base/urgentisimo_dt.db.svn-base
+* Urgentisimo/assets/.svn/text-base/
+* Urgentisimo/assets/.svn/text-base/.directory.svn-base
+* Urgentisimo/assets/.svn/text-base/alumnos.csv.svn-base
+* Urgentisimo/assets/.svn/text-base/alumnos.sql.svn-base
+* Urgentisimo/assets/.svn/text-base/ssssf.sql.svn-base
+* Urgentisimo/assets/.svn/text-base/urg_x.sql.svn-base
+* Urgentisimo/assets/.svn/text-base/urgentisimo.db.svn-base
+* Urgentisimo/assets/.svn/text-base/urgentisimo.db_alt.svn-base
+* Urgentisimo/assets/.svn/text-base/urgentisimo.svn-base
+* Urgentisimo/assets/.svn/text-base/urgentisimo_datos.db.svn-base
+* Urgentisimo/assets/.svn/text-base/urgentisimo_dt.db.svn-base
+* Urgentisimo/assets/.svn/text-base/version.dat.svn-base
+* Urgentisimo/assets/alumnos.csv
+* Urgentisimo/assets/alumnos.sql
+* Urgentisimo/assets/ssssf.sql
+* Urgentisimo/assets/urg_x.sql
+* Urgentisimo/assets/urgentisimo.db
+* Urgentisimo/assets/urgentisimo.db
+* Urgentisimo/assets/urgentisimo.db_alt
+* Urgentisimo/assets/urgentisimo_datos.db
+* Urgentisimo/assets/urgentisimo_dt.db
+* Urgentisimo/assets/version.dat
+* Urgentisimo/bin/
+* Urgentisimo/bin/.directory
+* Urgentisimo/bin/.svn/
+* Urgentisimo/bin/.svn/all-wcprops
+* Urgentisimo/bin/.svn/entries
+* Urgentisimo/bin/.svn/prop-base/
+* Urgentisimo/bin/.svn/prop-base/Urgentisimo.apk.svn-base
+* Urgentisimo/bin/.svn/prop-base/classes.dex.svn-base
+* Urgentisimo/bin/.svn/prop-base/resources.ap_.svn-base
+* Urgentisimo/bin/.svn/text-base/
+* Urgentisimo/bin/.svn/text-base/.directory.svn-base
+* Urgentisimo/bin/.svn/text-base/AndroidManifest.xml.svn-base
+* Urgentisimo/bin/.svn/text-base/Urgentisimo.apk.svn-base
+* Urgentisimo/bin/.svn/text-base/classes.dex.svn-base
+* Urgentisimo/bin/.svn/text-base/jarlist.cache.svn-base
+* Urgentisimo/bin/.svn/text-base/resources.ap_.svn-base
+* Urgentisimo/bin/AndroidManifest.xml
+* Urgentisimo/bin/Urgentisimo.apk
+* Urgentisimo/bin/classes.dex
+* Urgentisimo/bin/jarlist.cache
+* Urgentisimo/bin/res/
+* Urgentisimo/bin/res/.svn/
+* Urgentisimo/bin/res/.svn/all-wcprops
+* Urgentisimo/bin/res/.svn/entries
+* Urgentisimo/bin/res/drawable-hdpi/
+* Urgentisimo/bin/res/drawable-hdpi/.svn/
+* Urgentisimo/bin/res/drawable-hdpi/.svn/all-wcprops
+* Urgentisimo/bin/res/drawable-hdpi/.svn/entries
+* Urgentisimo/bin/res/drawable-hdpi/.svn/prop-base/
+* Urgentisimo/bin/res/drawable-hdpi/.svn/prop-base/ic_menu_eval.png.svn-base
+* Urgentisimo/bin/res/drawable-hdpi/.svn/prop-base/icon.png.svn-base
+* Urgentisimo/bin/res/drawable-hdpi/.svn/prop-base/icon_old.png.svn-base
+* Urgentisimo/bin/res/drawable-hdpi/.svn/text-base/
+* Urgentisimo/bin/res/drawable-hdpi/.svn/text-base/ic_menu_eval.png.svn-base
+* Urgentisimo/bin/res/drawable-hdpi/.svn/text-base/icon.png.svn-base
+* Urgentisimo/bin/res/drawable-hdpi/.svn/text-base/icon_old.png.svn-base
+* Urgentisimo/bin/res/drawable-hdpi/ic_menu_eval.png
+* Urgentisimo/bin/res/drawable-hdpi/icon.png
+* Urgentisimo/bin/res/drawable-hdpi/icon_old.png
+* Urgentisimo/bin/res/drawable-ldpi/
+* Urgentisimo/bin/res/drawable-ldpi/.svn/
+* Urgentisimo/bin/res/drawable-ldpi/.svn/all-wcprops
+* Urgentisimo/bin/res/drawable-ldpi/.svn/entries
+* Urgentisimo/bin/res/drawable-ldpi/.svn/prop-base/
+* Urgentisimo/bin/res/drawable-ldpi/.svn/prop-base/ic_menu_eval.png.svn-base
+* Urgentisimo/bin/res/drawable-ldpi/.svn/prop-base/icon.png.svn-base
+* Urgentisimo/bin/res/drawable-ldpi/.svn/text-base/
+* Urgentisimo/bin/res/drawable-ldpi/.svn/text-base/ic_menu_eval.png.svn-base
+* Urgentisimo/bin/res/drawable-ldpi/.svn/text-base/icon.png.svn-base
+* Urgentisimo/bin/res/drawable-ldpi/ic_menu_eval.png
+* Urgentisimo/bin/res/drawable-ldpi/icon.png
+* Urgentisimo/bin/res/drawable-mdpi/
+* Urgentisimo/bin/res/drawable-mdpi/.svn/
+* Urgentisimo/bin/res/drawable-mdpi/.svn/all-wcprops
+* Urgentisimo/bin/res/drawable-mdpi/.svn/entries
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/add.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/add_criterio.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/add_group.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/add_user.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/agrega_actividad.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/agrega_alumno.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/alumno.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/alumno_foto.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/alumnos_view.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/asistencia.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/backup_database.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/bombilla.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/calendario.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/cameraphoto.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/check.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/del_criterio.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/del_user.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/delete.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/delete_group.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/edit.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/evaluacion.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/evaluacion_s.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/extra.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/grafica.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/grupo.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/grupos_big.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/ic_menu_eval.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/icon.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/idea.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/mail.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/photo.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/programacion.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/reset_database.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/save.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/saveas.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/saveass.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/prop-base/tareas.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/add.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/add_criterio.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/add_group.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/add_user.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/agrega_actividad.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/agrega_alumno.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/alumno.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/alumno_foto.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/alumnos_view.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/asistencia.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/backup_database.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/bombilla.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/calendario.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/cameraphoto.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/check.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/del_criterio.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/del_user.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/delete.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/delete_group.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/edit.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/evaluacion.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/evaluacion_s.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/extra.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/grafica.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/grupo.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/grupos_big.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/ic_menu_eval.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/icon.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/idea.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/mail.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/photo.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/programacion.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/reset_database.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/save.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/saveas.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/saveass.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/.svn/text-base/tareas.png.svn-base
+* Urgentisimo/bin/res/drawable-mdpi/add.png
+* Urgentisimo/bin/res/drawable-mdpi/add_criterio.png
+* Urgentisimo/bin/res/drawable-mdpi/add_group.png
+* Urgentisimo/bin/res/drawable-mdpi/add_user.png
+* Urgentisimo/bin/res/drawable-mdpi/agrega_actividad.png
+* Urgentisimo/bin/res/drawable-mdpi/agrega_alumno.png
+* Urgentisimo/bin/res/drawable-mdpi/alumno.png
+* Urgentisimo/bin/res/drawable-mdpi/alumno_foto.png
+* Urgentisimo/bin/res/drawable-mdpi/alumnos_view.png
+* Urgentisimo/bin/res/drawable-mdpi/asistencia.png
+* Urgentisimo/bin/res/drawable-mdpi/backup_database.png
+* Urgentisimo/bin/res/drawable-mdpi/bombilla.png
+* Urgentisimo/bin/res/drawable-mdpi/calendario.png
+* Urgentisimo/bin/res/drawable-mdpi/cameraphoto.png
+* Urgentisimo/bin/res/drawable-mdpi/check.png
+* Urgentisimo/bin/res/drawable-mdpi/del_criterio.png
+* Urgentisimo/bin/res/drawable-mdpi/del_user.png
+* Urgentisimo/bin/res/drawable-mdpi/delete.png
+* Urgentisimo/bin/res/drawable-mdpi/delete_group.png
+* Urgentisimo/bin/res/drawable-mdpi/edit.png
+* Urgentisimo/bin/res/drawable-mdpi/evaluacion.png
+* Urgentisimo/bin/res/drawable-mdpi/evaluacion_s.png
+* Urgentisimo/bin/res/drawable-mdpi/extra.png
+* Urgentisimo/bin/res/drawable-mdpi/grafica.png
+* Urgentisimo/bin/res/drawable-mdpi/grupo.png
+* Urgentisimo/bin/res/drawable-mdpi/grupos_big.png
+* Urgentisimo/bin/res/drawable-mdpi/ic_menu_eval.png
+* Urgentisimo/bin/res/drawable-mdpi/icon.png
+* Urgentisimo/bin/res/drawable-mdpi/idea.png
+* Urgentisimo/bin/res/drawable-mdpi/mail.png
+* Urgentisimo/bin/res/drawable-mdpi/photo.png
+* Urgentisimo/bin/res/drawable-mdpi/programacion.png
+* Urgentisimo/bin/res/drawable-mdpi/reset_database.png
+* Urgentisimo/bin/res/drawable-mdpi/save.png
+* Urgentisimo/bin/res/drawable-mdpi/saveas.png
+* Urgentisimo/bin/res/drawable-mdpi/saveass.png
+* Urgentisimo/bin/res/drawable-mdpi/tareas.png
+* Urgentisimo/bin/res/drawable-xhdpi/
+* Urgentisimo/bin/res/drawable-xhdpi/.svn/
+* Urgentisimo/bin/res/drawable-xhdpi/.svn/all-wcprops
+* Urgentisimo/bin/res/drawable-xhdpi/.svn/entries
+* Urgentisimo/bin/res/drawable-xhdpi/.svn/prop-base/
+* Urgentisimo/bin/res/drawable-xhdpi/.svn/prop-base/ic_menu_eval.png.svn-base
+* Urgentisimo/bin/res/drawable-xhdpi/.svn/text-base/
+* Urgentisimo/bin/res/drawable-xhdpi/.svn/text-base/ic_menu_eval.png.svn-base
+* Urgentisimo/bin/res/drawable-xhdpi/ic_menu_eval.png
+* Urgentisimo/bin/resources.ap_
+* Urgentisimo/criterioInfo.java
+* Urgentisimo/default.properties
+* Urgentisimo/eval_criterio_item.xml
+* Urgentisimo/eval_subitem.xml
+* Urgentisimo/evaluacion_act.xml
+* Urgentisimo/gen/
+* Urgentisimo/gen/.svn/
+* Urgentisimo/gen/.svn/all-wcprops
+* Urgentisimo/gen/.svn/entries
+* Urgentisimo/libs/
+* Urgentisimo/libs/.svn/
+* Urgentisimo/libs/.svn/all-wcprops
+* Urgentisimo/libs/.svn/entries
+* Urgentisimo/libs/.svn/prop-base/
+* Urgentisimo/libs/.svn/prop-base/android-support-v4.jar.svn-base
+* Urgentisimo/libs/.svn/text-base/
+* Urgentisimo/libs/.svn/text-base/android-support-v4.jar.svn-base
+* Urgentisimo/libs/android-support-v4.jar
+* Urgentisimo/proguard.cfg
+* Urgentisimo/project.properties
+* Urgentisimo/res/
+* Urgentisimo/res/.directory
+* Urgentisimo/res/.svn/
+* Urgentisimo/res/.svn/all-wcprops
+* Urgentisimo/res/.svn/entries
+* Urgentisimo/res/.svn/text-base/
+* Urgentisimo/res/.svn/text-base/.directory.svn-base
+* Urgentisimo/res/drawable-hdpi/
+* Urgentisimo/res/drawable-hdpi/.directory
+* Urgentisimo/res/drawable-hdpi/.svn/
+* Urgentisimo/res/drawable-hdpi/.svn/all-wcprops
+* Urgentisimo/res/drawable-hdpi/.svn/entries
+* Urgentisimo/res/drawable-hdpi/.svn/prop-base/
+* Urgentisimo/res/drawable-hdpi/.svn/prop-base/ic_menu_eval.png.svn-base
+* Urgentisimo/res/drawable-hdpi/.svn/prop-base/icon.png.svn-base
+* Urgentisimo/res/drawable-hdpi/.svn/prop-base/icon_old.png.svn-base
+* Urgentisimo/res/drawable-hdpi/.svn/text-base/
+* Urgentisimo/res/drawable-hdpi/.svn/text-base/.directory.svn-base
+* Urgentisimo/res/drawable-hdpi/.svn/text-base/ic_menu_eval.png.svn-base
+* Urgentisimo/res/drawable-hdpi/.svn/text-base/icon.png.svn-base
+* Urgentisimo/res/drawable-hdpi/.svn/text-base/icon_old.png.svn-base
+* Urgentisimo/res/drawable-hdpi/ic_menu_eval.png
+* Urgentisimo/res/drawable-hdpi/icon.png
+* Urgentisimo/res/drawable-hdpi/icon_old.png
+* Urgentisimo/res/drawable-ldpi/
+* Urgentisimo/res/drawable-ldpi/.svn/
+* Urgentisimo/res/drawable-ldpi/.svn/all-wcprops
+* Urgentisimo/res/drawable-ldpi/.svn/entries
+* Urgentisimo/res/drawable-ldpi/.svn/prop-base/
+* Urgentisimo/res/drawable-ldpi/.svn/prop-base/ic_menu_eval.png.svn-base
+* Urgentisimo/res/drawable-ldpi/.svn/prop-base/icon.png.svn-base
+* Urgentisimo/res/drawable-ldpi/.svn/text-base/
+* Urgentisimo/res/drawable-ldpi/.svn/text-base/ic_menu_eval.png.svn-base
+* Urgentisimo/res/drawable-ldpi/.svn/text-base/icon.png.svn-base
+* Urgentisimo/res/drawable-ldpi/ic_menu_eval.png
+* Urgentisimo/res/drawable-ldpi/icon.png
+* Urgentisimo/res/drawable-mdpi/
+* Urgentisimo/res/drawable-mdpi/.directory
+* Urgentisimo/res/drawable-mdpi/.svn/
+* Urgentisimo/res/drawable-mdpi/.svn/all-wcprops
+* Urgentisimo/res/drawable-mdpi/.svn/entries
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/add.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/add_criterio.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/add_group.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/add_user.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/agrega_actividad.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/agrega_alumno.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/alumno.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/alumno_foto.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/alumnos_view.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/asistencia.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/backup_database.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/bombilla.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/border_2.xml.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/calendario.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/cameraphoto.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/check.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/del_criterio.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/del_user.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/delete.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/delete_group.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/edit.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/evaluacion.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/evaluacion_s.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/extra.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/grafica.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/grupo.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/grupos_big.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/ic_menu_eval.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/icon.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/idea.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/mail.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/photo.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/plus.jpg.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/programacion.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/reset_database.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/save.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/saveas.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/saveass.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/prop-base/tareas.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/.directory.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/add.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/add_criterio.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/add_group.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/add_user.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/agrega_actividad.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/agrega_alumno.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/alumno.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/alumno_foto.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/alumnos_view.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/asistencia.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/backup_database.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/bombilla.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/border.xml.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/border_2.xml.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/border_blue.xml.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/calendario.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/cameraphoto.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/check.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/del_criterio.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/del_user.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/delete.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/delete_group.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/edit.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/evaluacion.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/evaluacion_s.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/extra.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/frame_blue.xml.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/grafica.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/grupo.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/grupos_big.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/ic_menu_eval.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/icon.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/idea.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/mail.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/photo.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/plus.jpg.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/programacion.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/reset_database.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/save.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/saveas.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/saveass.png.svn-base
+* Urgentisimo/res/drawable-mdpi/.svn/text-base/tareas.png.svn-base
+* Urgentisimo/res/drawable-mdpi/add.png
+* Urgentisimo/res/drawable-mdpi/add_criterio.png
+* Urgentisimo/res/drawable-mdpi/add_group.png
+* Urgentisimo/res/drawable-mdpi/add_user.png
+* Urgentisimo/res/drawable-mdpi/agrega_actividad.png
+* Urgentisimo/res/drawable-mdpi/agrega_alumno.png
+* Urgentisimo/res/drawable-mdpi/alumno.png
+* Urgentisimo/res/drawable-mdpi/alumno_foto.png
+* Urgentisimo/res/drawable-mdpi/alumnos_view.png
+* Urgentisimo/res/drawable-mdpi/asistencia.png
+* Urgentisimo/res/drawable-mdpi/backup_database.png
+* Urgentisimo/res/drawable-mdpi/bombilla.png
+* Urgentisimo/res/drawable-mdpi/border.xml
+* Urgentisimo/res/drawable-mdpi/border_2.xml
+* Urgentisimo/res/drawable-mdpi/border_blue.xml
+* Urgentisimo/res/drawable-mdpi/calendario.png
+* Urgentisimo/res/drawable-mdpi/cameraphoto.png
+* Urgentisimo/res/drawable-mdpi/check.png
+* Urgentisimo/res/drawable-mdpi/del_criterio.png
+* Urgentisimo/res/drawable-mdpi/del_user.png
+* Urgentisimo/res/drawable-mdpi/delete.png
+* Urgentisimo/res/drawable-mdpi/delete_group.png
+* Urgentisimo/res/drawable-mdpi/edit.png
+* Urgentisimo/res/drawable-mdpi/evaluacion.png
+* Urgentisimo/res/drawable-mdpi/evaluacion_s.png
+* Urgentisimo/res/drawable-mdpi/extra.png
+* Urgentisimo/res/drawable-mdpi/frame_blue.xml
+* Urgentisimo/res/drawable-mdpi/grafica.png
+* Urgentisimo/res/drawable-mdpi/grupo.png
+* Urgentisimo/res/drawable-mdpi/grupos_big.png
+* Urgentisimo/res/drawable-mdpi/ic_menu_eval.png
+* Urgentisimo/res/drawable-mdpi/icon.png
+* Urgentisimo/res/drawable-mdpi/idea.png
+* Urgentisimo/res/drawable-mdpi/mail.png
+* Urgentisimo/res/drawable-mdpi/photo.png
+* Urgentisimo/res/drawable-mdpi/plus.jpg
+* Urgentisimo/res/drawable-mdpi/programacion.png
+* Urgentisimo/res/drawable-mdpi/reset_database.png
+* Urgentisimo/res/drawable-mdpi/save.png
+* Urgentisimo/res/drawable-mdpi/saveas.png
+* Urgentisimo/res/drawable-mdpi/saveass.png
+* Urgentisimo/res/drawable-mdpi/tareas.png
+* Urgentisimo/res/drawable-xhdpi/
+* Urgentisimo/res/drawable-xhdpi/.svn/
+* Urgentisimo/res/drawable-xhdpi/.svn/all-wcprops
+* Urgentisimo/res/drawable-xhdpi/.svn/entries
+* Urgentisimo/res/drawable-xhdpi/.svn/prop-base/
+* Urgentisimo/res/drawable-xhdpi/.svn/prop-base/ic_menu_eval.png.svn-base
+* Urgentisimo/res/drawable-xhdpi/.svn/text-base/
+* Urgentisimo/res/drawable-xhdpi/.svn/text-base/ic_menu_eval.png.svn-base
+* Urgentisimo/res/drawable-xhdpi/ic_menu_eval.png
+* Urgentisimo/res/drawable/
+* Urgentisimo/res/drawable/.svn/
+* Urgentisimo/res/drawable/.svn/all-wcprops
+* Urgentisimo/res/drawable/.svn/entries
+* Urgentisimo/res/drawable/.svn/prop-base/
+* Urgentisimo/res/drawable/.svn/prop-base/line_blue.xml.svn-base
+* Urgentisimo/res/drawable/.svn/text-base/
+* Urgentisimo/res/drawable/.svn/text-base/line_blue.xml.svn-base
+* Urgentisimo/res/drawable/line_blue.xml
+* Urgentisimo/res/layout/
+* Urgentisimo/res/layout/.svn/
+* Urgentisimo/res/layout/.svn/all-wcprops
+* Urgentisimo/res/layout/.svn/entries
+* Urgentisimo/res/layout/.svn/prop-base/
+* Urgentisimo/res/layout/.svn/prop-base/actividad_act.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/actividad_main_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/add_contenido_act.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/add_objetivo.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/campo_valor.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/campos_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/criterio_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/criterios_act.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/date_dialog.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/dialog_actividad.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/dialog_contenido.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/dialog_criterios.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/dialog_objetivos.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/dialog_one_field.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/eval_criterio_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/eval_subitem.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/evaluacion_act.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/grupos_alumnos.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/info_dialog.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/meta_grupo.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/new_actividad_act.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/new_criterio.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/new_criterio_act.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/objetivo_progra_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/populate_tables.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/programacion_activity.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/simple_line.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/spinner_dialog.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/studentReport.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/tabla_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/texto_icono_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/prop-base/yes_no.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/
+* Urgentisimo/res/layout/.svn/text-base/actividad_act.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/actividad_main_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/actividades_grupo_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/add_contenido_act.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/add_objetivo.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/add_student.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/campo_valor.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/campos_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/criterio_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/criterioev_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/criterios_act.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/criterios_evaluacion.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/curso_list_alumnos.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/date_dialog.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/details.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/dialog_actividad.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/dialog_contenido.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/dialog_criterios.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/dialog_objetivos.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/dialog_one_field.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/dos_et_borra.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/edita_grupos_act.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/editar_criterios_act.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/eval_criterio_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/eval_subitem.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/evaluacion_act.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/grupo_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/grupos_activity.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/grupos_alumnos.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/grupos_select_alumno.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/info_dialog.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/main.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/main_fragments.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/meta_grupo.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/miembro_grupo_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/modify_text.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/new_actividad_act.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/new_criterio.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/new_criterio_act.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/objetivo_progra_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/populate_tables.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/programacion_activity.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/simple_line.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/spinner_dialog.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/spinner_grupo_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/studentReport.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/student_data_1.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/student_detail.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/students.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/tabla_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/texto_icono_item.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/two_textfield.xml.svn-base
+* Urgentisimo/res/layout/.svn/text-base/yes_no.xml.svn-base
+* Urgentisimo/res/layout/actividad_act.xml
+* Urgentisimo/res/layout/actividad_main_item.xml
+* Urgentisimo/res/layout/actividades_grupo_item.xml
+* Urgentisimo/res/layout/add_contenido_act.xml
+* Urgentisimo/res/layout/add_objetivo.xml
+* Urgentisimo/res/layout/add_student.xml
+* Urgentisimo/res/layout/campo_valor.xml
+* Urgentisimo/res/layout/campos_item.xml
+* Urgentisimo/res/layout/criterio_item.xml
+* Urgentisimo/res/layout/criterioev_item.xml
+* Urgentisimo/res/layout/criterios_act.xml
+* Urgentisimo/res/layout/criterios_evaluacion.xml
+* Urgentisimo/res/layout/curso_list_alumnos.xml
+* Urgentisimo/res/layout/date_dialog.xml
+* Urgentisimo/res/layout/details.xml
+* Urgentisimo/res/layout/dialog_actividad.xml
+* Urgentisimo/res/layout/dialog_contenido.xml
+* Urgentisimo/res/layout/dialog_criterios.xml
+* Urgentisimo/res/layout/dialog_objetivos.xml
+* Urgentisimo/res/layout/dialog_one_field.xml
+* Urgentisimo/res/layout/dos_et_borra.xml
+* Urgentisimo/res/layout/edita_grupos_act.xml
+* Urgentisimo/res/layout/editar_criterios_act.xml
+* Urgentisimo/res/layout/eval_criterio_item.xml
+* Urgentisimo/res/layout/eval_subitem.xml
+* Urgentisimo/res/layout/evaluacion_act.xml
+* Urgentisimo/res/layout/grupo_item.xml
+* Urgentisimo/res/layout/grupos_activity.xml
+* Urgentisimo/res/layout/grupos_alumnos.xml
+* Urgentisimo/res/layout/grupos_select_alumno.xml
+* Urgentisimo/res/layout/info_dialog.xml
+* Urgentisimo/res/layout/main.xml
+* Urgentisimo/res/layout/main_fragments.xml
+* Urgentisimo/res/layout/meta_grupo.xml
+* Urgentisimo/res/layout/miembro_grupo_item.xml
+* Urgentisimo/res/layout/modify_text.xml
+* Urgentisimo/res/layout/new_actividad_act.xml
+* Urgentisimo/res/layout/new_criterio.xml
+* Urgentisimo/res/layout/new_criterio_act.xml
+* Urgentisimo/res/layout/objetivo_progra_item.xml
+* Urgentisimo/res/layout/populate_tables.xml
+* Urgentisimo/res/layout/programacion_activity.xml
+* Urgentisimo/res/layout/simple_line.xml
+* Urgentisimo/res/layout/spinner_dialog.xml
+* Urgentisimo/res/layout/spinner_grupo_item.xml
+* Urgentisimo/res/layout/studentReport.xml
+* Urgentisimo/res/layout/student_data_1.xml
+* Urgentisimo/res/layout/student_detail.xml
+* Urgentisimo/res/layout/students.xml
+* Urgentisimo/res/layout/tabla_item.xml
+* Urgentisimo/res/layout/texto_icono_item.xml
+* Urgentisimo/res/layout/two_textfield.xml
+* Urgentisimo/res/layout/yes_no.xml
+* Urgentisimo/res/menu/
+* Urgentisimo/res/menu/.svn/
+* Urgentisimo/res/menu/.svn/all-wcprops
+* Urgentisimo/res/menu/.svn/entries
+* Urgentisimo/res/menu/.svn/prop-base/
+* Urgentisimo/res/menu/.svn/prop-base/programacion_menu.xml.svn-base
+* Urgentisimo/res/menu/.svn/text-base/
+* Urgentisimo/res/menu/.svn/text-base/menu_main.xml.svn-base
+* Urgentisimo/res/menu/.svn/text-base/programacion_menu.xml.svn-base
+* Urgentisimo/res/menu/menu_main.xml
+* Urgentisimo/res/menu/programacion_menu.xml
+* Urgentisimo/res/values/
+* Urgentisimo/res/values/.svn/
+* Urgentisimo/res/values/.svn/all-wcprops
+* Urgentisimo/res/values/.svn/entries
+* Urgentisimo/res/values/.svn/text-base/
+* Urgentisimo/res/values/.svn/text-base/strings.xml.svn-base
+* Urgentisimo/res/values/strings.xml
+* Urgentisimo/show_act_item.xml
+* Urgentisimo/show_actividad_act.xml
+* Urgentisimo/src/
+* Urgentisimo/src/.svn/
+* Urgentisimo/src/.svn/all-wcprops
+* Urgentisimo/src/.svn/entries
+* Urgentisimo/src/uno/
+* Urgentisimo/src/uno/.svn/
+* Urgentisimo/src/uno/.svn/all-wcprops
+* Urgentisimo/src/uno/.svn/entries
+* Urgentisimo/src/uno/Urgentisimo/
+* Urgentisimo/src/uno/Urgentisimo/.directory
+* Urgentisimo/src/uno/Urgentisimo/.svn/
+* Urgentisimo/src/uno/Urgentisimo/.svn/all-wcprops
+* Urgentisimo/src/uno/Urgentisimo/.svn/entries
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/ActividadActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/AddActividadActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/AddContenidoActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/AddCriteriosActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/AddObjetivoActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/CriteriosActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/EvalAlumnosActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/GruposAlumnoActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/PopulateTablesActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/ProgramacionActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/SpinAdapter.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/UtilsLib.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/WidgetsUtils.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/actividadInfo.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/alumnoEvalInfo.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/criterioInfo.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/prop-base/nombreId.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/.directory.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/ActividadActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/AddActividadActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/AddContenidoActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/AddCriteriosActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/AddObjetivoActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/AlumnoAdapter.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/CriteriosActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/DataBaseHelper.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/DetailFragment.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/EditarCriterios.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/EditarGruposActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/EvalAlumnosActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/GruposActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/GruposAlumnoActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/MainActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/Mainfragment.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/PopulateTablesActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/ProgramacionActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/ProgramacionFragment.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/PromptDialog.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/SpinAdapter.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/StudentShowActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/TextViewConId.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/UrgentisimoActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/UtilsLib.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/WidgetsUtils.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/actividadInfo.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/alumnoEvalInfo.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/alumnosEnGrupo.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/criterioInfo.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/customDialog.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/editaGrupoActivity_x.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/gruposInfo.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/nombreId.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/studentInfo.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/.svn/text-base/studentsActivity.java.svn-base
+* Urgentisimo/src/uno/Urgentisimo/ActividadActivity.java
+* Urgentisimo/src/uno/Urgentisimo/AddActividadActivity.java
+* Urgentisimo/src/uno/Urgentisimo/AddContenidoActivity.java
+* Urgentisimo/src/uno/Urgentisimo/AddCriteriosActivity.java
+* Urgentisimo/src/uno/Urgentisimo/AddObjetivoActivity.java
+* Urgentisimo/src/uno/Urgentisimo/AlumnoAdapter.java
+* Urgentisimo/src/uno/Urgentisimo/CriteriosActivity.java
+* Urgentisimo/src/uno/Urgentisimo/DataBaseHelper.java
+* Urgentisimo/src/uno/Urgentisimo/DetailFragment.java
+* Urgentisimo/src/uno/Urgentisimo/EditarCriterios.java
+* Urgentisimo/src/uno/Urgentisimo/EditarGruposActivity.java
+* Urgentisimo/src/uno/Urgentisimo/EvalAlumnosActivity.java
+* Urgentisimo/src/uno/Urgentisimo/GruposActivity.java
+* Urgentisimo/src/uno/Urgentisimo/GruposAlumnoActivity.java
+* Urgentisimo/src/uno/Urgentisimo/MainActivity.java
+* Urgentisimo/src/uno/Urgentisimo/Mainfragment.java
+* Urgentisimo/src/uno/Urgentisimo/PopulateTablesActivity.java
+* Urgentisimo/src/uno/Urgentisimo/ProgramacionActivity.java
+* Urgentisimo/src/uno/Urgentisimo/ProgramacionFragment.java
+* Urgentisimo/src/uno/Urgentisimo/PromptDialog.java
+* Urgentisimo/src/uno/Urgentisimo/SpinAdapter.java
+* Urgentisimo/src/uno/Urgentisimo/StudentShowActivity.java
+* Urgentisimo/src/uno/Urgentisimo/TextViewConId.java
+* Urgentisimo/src/uno/Urgentisimo/UrgentisimoActivity.java
+* Urgentisimo/src/uno/Urgentisimo/UtilsLib.java
+* Urgentisimo/src/uno/Urgentisimo/WidgetsUtils.java
+* Urgentisimo/src/uno/Urgentisimo/actividadInfo.java
+* Urgentisimo/src/uno/Urgentisimo/alumnoEvalInfo.java
+* Urgentisimo/src/uno/Urgentisimo/alumnosEnGrupo.java
+* Urgentisimo/src/uno/Urgentisimo/criterioInfo.java
+* Urgentisimo/src/uno/Urgentisimo/customDialog.java
+* Urgentisimo/src/uno/Urgentisimo/editaGrupoActivity_x.java
+* Urgentisimo/src/uno/Urgentisimo/gruposInfo.java
+* Urgentisimo/src/uno/Urgentisimo/nombreId.java
+* Urgentisimo/src/uno/Urgentisimo/studentInfo.java
+* Urgentisimo/src/uno/Urgentisimo/studentsActivity.java
+* criterioInfo.java
+* default.properties
+* eval_criterio_item.xml
+* eval_subitem.xml
+* evaluacion_act.xml
+* iconos nuevos/
+* iconos nuevos/.directory
+* iconos nuevos/.svn/
+* iconos nuevos/.svn/all-wcprops
+* iconos nuevos/.svn/entries
+* iconos nuevos/.svn/prop-base/
+* iconos nuevos/.svn/prop-base/abajo_m.png.svn-base
+* iconos nuevos/.svn/prop-base/add_b.png.svn-base
+* iconos nuevos/.svn/prop-base/add_group_b.png.svn-base
+* iconos nuevos/.svn/prop-base/add_group_m.png.svn-base
+* iconos nuevos/.svn/prop-base/add_group_s.png.svn-base
+* iconos nuevos/.svn/prop-base/add_m.png.svn-base
+* iconos nuevos/.svn/prop-base/add_s.png.svn-base
+* iconos nuevos/.svn/prop-base/add_user_b.png.svn-base
+* iconos nuevos/.svn/prop-base/add_user_m.png.svn-base
+* iconos nuevos/.svn/prop-base/add_user_s.png.svn-base
+* iconos nuevos/.svn/prop-base/agrega_actividad_b.png.svn-base
+* iconos nuevos/.svn/prop-base/agrega_actividad_m.png.svn-base
+* iconos nuevos/.svn/prop-base/agrega_actividad_s.png.svn-base
+* iconos nuevos/.svn/prop-base/alumno_b.png.svn-base
+* iconos nuevos/.svn/prop-base/alumno_m.png.svn-base
+* iconos nuevos/.svn/prop-base/alumno_s.png.svn-base
+* iconos nuevos/.svn/prop-base/asistencia_b.png.svn-base
+* iconos nuevos/.svn/prop-base/asistencia_m.png.svn-base
+* iconos nuevos/.svn/prop-base/asistencia_s.png.svn-base
+* iconos nuevos/.svn/prop-base/backup_database_b.png.svn-base
+* iconos nuevos/.svn/prop-base/backup_database_m.png.svn-base
+* iconos nuevos/.svn/prop-base/backup_database_s.png.svn-base
+* iconos nuevos/.svn/prop-base/calendario_b.png.svn-base
+* iconos nuevos/.svn/prop-base/calendario_m.png.svn-base
+* iconos nuevos/.svn/prop-base/calendario_s.png.svn-base
+* iconos nuevos/.svn/prop-base/check_b.png.svn-base
+* iconos nuevos/.svn/prop-base/check_m.png.svn-base
+* iconos nuevos/.svn/prop-base/check_s.png.svn-base
+* iconos nuevos/.svn/prop-base/del_actividad_b.png.svn-base
+* iconos nuevos/.svn/prop-base/del_actividad_m.png.svn-base
+* iconos nuevos/.svn/prop-base/del_actividad_s.png.svn-base
+* iconos nuevos/.svn/prop-base/del_user_b.png.svn-base
+* iconos nuevos/.svn/prop-base/del_user_m.png.svn-base
+* iconos nuevos/.svn/prop-base/del_user_s.png.svn-base
+* iconos nuevos/.svn/prop-base/delete_b.png.svn-base
+* iconos nuevos/.svn/prop-base/delete_m.png.svn-base
+* iconos nuevos/.svn/prop-base/delete_s.png.svn-base
+* iconos nuevos/.svn/prop-base/edit_b.png.svn-base
+* iconos nuevos/.svn/prop-base/edit_m.png.svn-base
+* iconos nuevos/.svn/prop-base/edit_s.png.svn-base
+* iconos nuevos/.svn/prop-base/evaluacion_b.png.svn-base
+* iconos nuevos/.svn/prop-base/evaluacion_m.png.svn-base
+* iconos nuevos/.svn/prop-base/evaluacion_s.png.svn-base
+* iconos nuevos/.svn/prop-base/grafica_b.png.svn-base
+* iconos nuevos/.svn/prop-base/grafica_m.png.svn-base
+* iconos nuevos/.svn/prop-base/grafica_s.png.svn-base
+* iconos nuevos/.svn/prop-base/grupo_b.png.svn-base
+* iconos nuevos/.svn/prop-base/grupo_m.png.svn-base
+* iconos nuevos/.svn/prop-base/grupo_s.png.svn-base
+* iconos nuevos/.svn/prop-base/mail_b.png.svn-base
+* iconos nuevos/.svn/prop-base/mail_m.png.svn-base
+* iconos nuevos/.svn/prop-base/mail_s.png.svn-base
+* iconos nuevos/.svn/prop-base/photo_b.png.svn-base
+* iconos nuevos/.svn/prop-base/photo_m.png.svn-base
+* iconos nuevos/.svn/prop-base/photo_s.png.svn-base
+* iconos nuevos/.svn/prop-base/programacion_b.png.svn-base
+* iconos nuevos/.svn/prop-base/programacion_m.png.svn-base
+* iconos nuevos/.svn/prop-base/programacion_s.png.svn-base
+* iconos nuevos/.svn/prop-base/save_b.png.svn-base
+* iconos nuevos/.svn/prop-base/save_m.png.svn-base
+* iconos nuevos/.svn/prop-base/save_s.png.svn-base
+* iconos nuevos/.svn/prop-base/tareas_b.png.svn-base
+* iconos nuevos/.svn/prop-base/tareas_m.png.svn-base
+* iconos nuevos/.svn/prop-base/tareas_s.png.svn-base
+* iconos nuevos/.svn/props/
+* iconos nuevos/.svn/props/add_b_1.png.svn-work
+* iconos nuevos/.svn/props/add_m_1.png.svn-work
+* iconos nuevos/.svn/props/add_s_1.png.svn-work
+* iconos nuevos/.svn/props/alumno_b.kra.svn-work
+* iconos nuevos/.svn/props/permisos_b.png.svn-work
+* iconos nuevos/.svn/props/permisos_m.png.svn-work
+* iconos nuevos/.svn/props/permisos_s.png.svn-work
+* iconos nuevos/.svn/props/telephone_b.png.svn-work
+* iconos nuevos/.svn/props/telephone_m.png.svn-work
+* iconos nuevos/.svn/props/telephone_s.png.svn-work
+* iconos nuevos/.svn/text-base/
+* iconos nuevos/.svn/text-base/.directory.svn-base
+* iconos nuevos/.svn/text-base/abajo_m.png.svn-base
+* iconos nuevos/.svn/text-base/add_b.png.svn-base
+* iconos nuevos/.svn/text-base/add_group_b.png.svn-base
+* iconos nuevos/.svn/text-base/add_group_m.png.svn-base
+* iconos nuevos/.svn/text-base/add_group_s.png.svn-base
+* iconos nuevos/.svn/text-base/add_m.png.svn-base
+* iconos nuevos/.svn/text-base/add_s.png.svn-base
+* iconos nuevos/.svn/text-base/add_user_b.png.svn-base
+* iconos nuevos/.svn/text-base/add_user_m.png.svn-base
+* iconos nuevos/.svn/text-base/add_user_s.png.svn-base
+* iconos nuevos/.svn/text-base/agrega_actividad_b.png.svn-base
+* iconos nuevos/.svn/text-base/agrega_actividad_m.png.svn-base
+* iconos nuevos/.svn/text-base/agrega_actividad_s.png.svn-base
+* iconos nuevos/.svn/text-base/alumno_b.png.svn-base
+* iconos nuevos/.svn/text-base/alumno_m.png.svn-base
+* iconos nuevos/.svn/text-base/alumno_s.png.svn-base
+* iconos nuevos/.svn/text-base/asistencia_b.png.svn-base
+* iconos nuevos/.svn/text-base/asistencia_m.png.svn-base
+* iconos nuevos/.svn/text-base/asistencia_s.png.svn-base
+* iconos nuevos/.svn/text-base/backup_database_b.png.svn-base
+* iconos nuevos/.svn/text-base/backup_database_m.png.svn-base
+* iconos nuevos/.svn/text-base/backup_database_s.png.svn-base
+* iconos nuevos/.svn/text-base/calendario_b.png.svn-base
+* iconos nuevos/.svn/text-base/calendario_m.png.svn-base
+* iconos nuevos/.svn/text-base/calendario_s.png.svn-base
+* iconos nuevos/.svn/text-base/check_b.png.svn-base
+* iconos nuevos/.svn/text-base/check_m.png.svn-base
+* iconos nuevos/.svn/text-base/check_s.png.svn-base
+* iconos nuevos/.svn/text-base/del_actividad_b.png.svn-base
+* iconos nuevos/.svn/text-base/del_actividad_m.png.svn-base
+* iconos nuevos/.svn/text-base/del_actividad_s.png.svn-base
+* iconos nuevos/.svn/text-base/del_user_b.png.svn-base
+* iconos nuevos/.svn/text-base/del_user_m.png.svn-base
+* iconos nuevos/.svn/text-base/del_user_s.png.svn-base
+* iconos nuevos/.svn/text-base/delete_b.png.svn-base
+* iconos nuevos/.svn/text-base/delete_m.png.svn-base
+* iconos nuevos/.svn/text-base/delete_s.png.svn-base
+* iconos nuevos/.svn/text-base/edit_b.png.svn-base
+* iconos nuevos/.svn/text-base/edit_m.png.svn-base
+* iconos nuevos/.svn/text-base/edit_s.png.svn-base
+* iconos nuevos/.svn/text-base/evaluacion_b.png.svn-base
+* iconos nuevos/.svn/text-base/evaluacion_m.png.svn-base
+* iconos nuevos/.svn/text-base/evaluacion_s.png.svn-base
+* iconos nuevos/.svn/text-base/grafica_b.png.svn-base
+* iconos nuevos/.svn/text-base/grafica_m.png.svn-base
+* iconos nuevos/.svn/text-base/grafica_s.png.svn-base
+* iconos nuevos/.svn/text-base/grupo_b.png.svn-base
+* iconos nuevos/.svn/text-base/grupo_m.png.svn-base
+* iconos nuevos/.svn/text-base/grupo_s.png.svn-base
+* iconos nuevos/.svn/text-base/mail_b.png.svn-base
+* iconos nuevos/.svn/text-base/mail_m.png.svn-base
+* iconos nuevos/.svn/text-base/mail_s.png.svn-base
+* iconos nuevos/.svn/text-base/photo_b.png.svn-base
+* iconos nuevos/.svn/text-base/photo_m.png.svn-base
+* iconos nuevos/.svn/text-base/photo_s.png.svn-base
+* iconos nuevos/.svn/text-base/programacion_b.png.svn-base
+* iconos nuevos/.svn/text-base/programacion_m.png.svn-base
+* iconos nuevos/.svn/text-base/programacion_s.png.svn-base
+* iconos nuevos/.svn/text-base/save_b.png.svn-base
+* iconos nuevos/.svn/text-base/save_m.png.svn-base
+* iconos nuevos/.svn/text-base/save_s.png.svn-base
+* iconos nuevos/.svn/text-base/tareas_b.png.svn-base
+* iconos nuevos/.svn/text-base/tareas_m.png.svn-base
+* iconos nuevos/.svn/text-base/tareas_s.png.svn-base
+* iconos nuevos/abajo_m.png
+* iconos nuevos/add_b_1.png
+* iconos nuevos/add_group_b.png
+* iconos nuevos/add_group_m.png
+* iconos nuevos/add_group_s.png
+* iconos nuevos/add_m_1.png
+* iconos nuevos/add_s_1.png
+* iconos nuevos/add_user_b.png
+* iconos nuevos/add_user_m.png
+* iconos nuevos/add_user_s.png
+* iconos nuevos/agrega_actividad_b.png
+* iconos nuevos/agrega_actividad_m.png
+* iconos nuevos/agrega_actividad_s.png
+* iconos nuevos/alumno_b.kra
+* iconos nuevos/alumno_b.png
+* iconos nuevos/alumno_m.png
+* iconos nuevos/alumno_s.png
+* iconos nuevos/asistencia_b.png
+* iconos nuevos/asistencia_m.png
+* iconos nuevos/asistencia_s.png
+* iconos nuevos/backup_database_b.png
+* iconos nuevos/backup_database_m.png
+* iconos nuevos/backup_database_s.png
+* iconos nuevos/calendario_b.png
+* iconos nuevos/calendario_m.png
+* iconos nuevos/calendario_s.png
+* iconos nuevos/check_b.png
+* iconos nuevos/check_m.png
+* iconos nuevos/check_s.png
+* iconos nuevos/del_actividad_b.png
+* iconos nuevos/del_actividad_m.png
+* iconos nuevos/del_actividad_s.png
+* iconos nuevos/del_user_b.png
+* iconos nuevos/del_user_m.png
+* iconos nuevos/del_user_s.png
+* iconos nuevos/delete_b.png
+* iconos nuevos/delete_m.png
+* iconos nuevos/delete_s.png
+* iconos nuevos/edit_b.png
+* iconos nuevos/edit_m.png
+* iconos nuevos/edit_s.png
+* iconos nuevos/evaluacion_b.png
+* iconos nuevos/evaluacion_m.png
+* iconos nuevos/evaluacion_s.png
+* iconos nuevos/grafica_b.png
+* iconos nuevos/grafica_m.png
+* iconos nuevos/grafica_s.png
+* iconos nuevos/grupo_b.png
+* iconos nuevos/grupo_m.png
+* iconos nuevos/grupo_s.png
+* iconos nuevos/mail_b.png
+* iconos nuevos/mail_m.png
+* iconos nuevos/mail_s.png
+* iconos nuevos/necesarios/
+* iconos nuevos/necesarios/.directory
+* iconos nuevos/necesarios/.siguiente_m.png-autosave.kra
+* iconos nuevos/necesarios/.svn/
+* iconos nuevos/necesarios/.svn/all-wcprops
+* iconos nuevos/necesarios/.svn/entries
+* iconos nuevos/necesarios/.svn/prop-base/
+* iconos nuevos/necesarios/.svn/prop-base/.siguiente_m.png-autosave.kra.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/abajo_m.png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/actividadhechasinevaluar (1).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/actividadhechasinevaluar (2).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/actividadhechasinevaluar (3).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/actividadhechayevaluada (1).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/actividadhechayevaluada (2).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/actividadhechayevaluada (3).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/actividadsinhacersinevaluar (1).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/actividadsinhacersinevaluar (2).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/actividadsinhacersinevaluar (3).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/anterior (1).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/anterior (2).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/anterior (3).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/atencion (1).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/atencion (2).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/atencion (3).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/atencion_b.png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/atencion_m.png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/atencion_s.png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/contraer (1).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/contraer (2).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/contraer (3).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/edit_actividad (1).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/edit_actividad (2).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/edit_actividad (3).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/edit_user (1).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/edit_user (2).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/edit_user (3).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/enviarxcorreo (1).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/enviarxcorreo (2).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/enviarxcorreo (3).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/home (1).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/home (2).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/home (3).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/siguiente (1).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/siguiente (2).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/siguiente (3).png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/siguiente_b.png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/siguiente_m.png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/siguiente_off_m.png.svn-base
+* iconos nuevos/necesarios/.svn/prop-base/siguiente_s.png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/
+* iconos nuevos/necesarios/.svn/text-base/.directory.svn-base
+* iconos nuevos/necesarios/.svn/text-base/.siguiente_m.png-autosave.kra.svn-base
+* iconos nuevos/necesarios/.svn/text-base/abajo_m.png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/actividadhechasinevaluar (1).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/actividadhechasinevaluar (2).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/actividadhechasinevaluar (3).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/actividadhechayevaluada (1).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/actividadhechayevaluada (2).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/actividadhechayevaluada (3).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/actividadsinhacersinevaluar (1).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/actividadsinhacersinevaluar (2).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/actividadsinhacersinevaluar (3).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/anterior (1).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/anterior (2).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/anterior (3).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/atencion (1).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/atencion (2).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/atencion (3).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/atencion_b.png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/atencion_m.png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/atencion_s.png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/contraer (1).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/contraer (2).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/contraer (3).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/edit_actividad (1).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/edit_actividad (2).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/edit_actividad (3).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/edit_user (1).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/edit_user (2).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/edit_user (3).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/enviarxcorreo (1).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/enviarxcorreo (2).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/enviarxcorreo (3).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/home (1).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/home (2).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/home (3).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/siguiente (1).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/siguiente (2).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/siguiente (3).png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/siguiente_b.png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/siguiente_m.png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/siguiente_off_m.png.svn-base
+* iconos nuevos/necesarios/.svn/text-base/siguiente_s.png.svn-base
+* iconos nuevos/necesarios/abajo_m.png
+* iconos nuevos/necesarios/abajo_m.png~
+* iconos nuevos/necesarios/actividadhechasinevaluar (1).png
+* iconos nuevos/necesarios/actividadhechasinevaluar (2).png
+* iconos nuevos/necesarios/actividadhechasinevaluar (3).png
+* iconos nuevos/necesarios/actividadhechayevaluada (1).png
+* iconos nuevos/necesarios/actividadhechayevaluada (2).png
+* iconos nuevos/necesarios/actividadhechayevaluada (3).png
+* iconos nuevos/necesarios/actividadsinhacersinevaluar (1).png
+* iconos nuevos/necesarios/actividadsinhacersinevaluar (2).png
+* iconos nuevos/necesarios/actividadsinhacersinevaluar (3).png
+* iconos nuevos/necesarios/anterior (1).png
+* iconos nuevos/necesarios/anterior (2).png
+* iconos nuevos/necesarios/anterior (3).png
+* iconos nuevos/necesarios/atencion_b.png
+* iconos nuevos/necesarios/atencion_m.png
+* iconos nuevos/necesarios/atencion_s.png
+* iconos nuevos/necesarios/contraer (1).png
+* iconos nuevos/necesarios/contraer (2).png
+* iconos nuevos/necesarios/contraer (3).png
+* iconos nuevos/necesarios/edit_actividad (1).png
+* iconos nuevos/necesarios/edit_actividad (2).png
+* iconos nuevos/necesarios/edit_actividad (3).png
+* iconos nuevos/necesarios/edit_user (1).png
+* iconos nuevos/necesarios/edit_user (2).png
+* iconos nuevos/necesarios/edit_user (3).png
+* iconos nuevos/necesarios/enviarxcorreo (1).png
+* iconos nuevos/necesarios/enviarxcorreo (2).png
+* iconos nuevos/necesarios/enviarxcorreo (3).png
+* iconos nuevos/necesarios/home (1).png
+* iconos nuevos/necesarios/home (2).png
+* iconos nuevos/necesarios/home (3).png
+* iconos nuevos/necesarios/siguiente_b.png
+* iconos nuevos/necesarios/siguiente_m.png
+* iconos nuevos/necesarios/siguiente_off_m.png
+* iconos nuevos/necesarios/siguiente_off_m.png~
+* iconos nuevos/necesarios/siguiente_s.png
+* iconos nuevos/permisos_b.png
+* iconos nuevos/permisos_m.png
+* iconos nuevos/permisos_s.png
+* iconos nuevos/photo_b.png
+* iconos nuevos/photo_m.png
+* iconos nuevos/photo_s.png
+* iconos nuevos/pics/
+* iconos nuevos/pics/.svn/
+* iconos nuevos/pics/.svn/all-wcprops
+* iconos nuevos/pics/.svn/entries
+* iconos nuevos/pics/easyicon_net_20130519102613772/
+* iconos nuevos/pics/easyicon_net_20130519102613772/.directory
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/all-wcprops
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/entries
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/1091828.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/1091912.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/1091925.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/1092127.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/1092487.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/20130519100524295_easyicon_net_16.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/20130519100641313_easyicon_net_32.ico.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/553644.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/553646.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/553647.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/553858.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/553924.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/553925.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/553985.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/553986.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/553987.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/553999.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/554000.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/554011.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/554012.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/554013.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/554014.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/prop-base/554043.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/.directory.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/1091828.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/1091912.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/1091925.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/1092127.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/1092487.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/20130519100524295_easyicon_net_16.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/20130519100641313_easyicon_net_32.ico.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/553644.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/553646.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/553647.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/553858.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/553924.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/553925.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/553985.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/553986.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/553987.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/553999.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/554000.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/554011.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/554012.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/554013.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/554014.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/.svn/text-base/554043.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130519102613772/1091828.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/1091912.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/1091925.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/1092127.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/1092487.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/20130519100524295_easyicon_net_16.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/20130519100641313_easyicon_net_32.ico
+* iconos nuevos/pics/easyicon_net_20130519102613772/553644.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/553646.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/553647.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/553858.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/553924.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/553925.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/553985.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/553986.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/553987.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/553999.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/554000.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/554011.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/554012.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/554013.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/554014.png
+* iconos nuevos/pics/easyicon_net_20130519102613772/554043.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/all-wcprops
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/entries
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_1.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_10.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_11.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_12.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_13.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_14.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_15.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_16.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_17.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_18.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_19.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_2.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_20.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_21.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_22.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_23.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_24.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_25.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_26.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_27.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_28.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_29.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_3.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_30.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_31.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_32.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_33.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_34.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_35.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_36.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_37.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_38.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_39.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_4.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_40.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_41.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_42.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_5.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_6.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_7.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_8.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/prop-base/basepic_9.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_1.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_10.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_11.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_12.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_13.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_14.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_15.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_16.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_17.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_18.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_19.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_2.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_20.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_21.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_22.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_23.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_24.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_25.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_26.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_27.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_28.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_29.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_3.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_30.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_31.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_32.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_33.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_34.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_35.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_36.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_37.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_38.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_39.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_4.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_40.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_41.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_42.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_5.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_6.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_7.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_8.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/.svn/text-base/basepic_9.png.svn-base
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_1.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_10.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_11.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_12.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_13.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_14.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_15.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_16.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_17.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_18.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_19.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_2.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_20.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_21.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_22.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_23.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_24.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_25.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_26.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_27.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_28.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_29.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_3.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_30.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_31.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_32.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_33.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_34.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_35.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_36.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_37.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_38.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_39.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_4.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_40.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_41.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_42.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_5.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_6.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_7.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_8.png
+* iconos nuevos/pics/easyicon_net_20130521050434193/basepic_9.png
+* iconos nuevos/programacion_b.png
+* iconos nuevos/programacion_m.png
+* iconos nuevos/programacion_s.png
+* iconos nuevos/save_b.png
+* iconos nuevos/save_m.png
+* iconos nuevos/save_s.png
+* iconos nuevos/tareas_b.png
+* iconos nuevos/tareas_m.png
+* iconos nuevos/tareas_s.png
+* iconos nuevos/telephone_b.png
+* iconos nuevos/telephone_m.png
+* iconos nuevos/telephone_s.png
+* page.html
+* print.css
+* print.pdf
+* proguard.cfg
+* reporte.xls
+* scripts/
+* scripts/.svn/
+* scripts/.svn/all-wcprops
+* scripts/.svn/entries
+* scripts/.svn/prop-base/
+* scripts/.svn/prop-base/5C_eval.ods.svn-base
+* scripts/.svn/prop-base/6A_eval.ods.svn-base
+* scripts/.svn/prop-base/6B_eval.ods.svn-base
+* scripts/.svn/prop-base/6C_eval.ods.svn-base
+* scripts/.svn/text-base/
+* scripts/.svn/text-base/5C_eval.ods.svn-base
+* scripts/.svn/text-base/6A_eval.ods.svn-base
+* scripts/.svn/text-base/6B_eval.ods.svn-base
+* scripts/.svn/text-base/6C_eval.ods.svn-base
+* scripts/.svn/text-base/evaluaciones_actividad.py.svn-base
+* scripts/.svn/text-base/evaluaciones_criterio.py.svn-base
+* scripts/5C_eval.ods
+* scripts/6A_eval.ods
+* scripts/6B_eval.ods
+* scripts/6C_eval.ods
+* scripts/evaluaciones_actividad.py
+* scripts/evaluaciones_criterio.py
+* show_act_item.xml
+* show_actividad_act.xml
+* sld.sql
+* sld.sql~
+* toctoc.csv
+* toctoc.ods
+* urgentisimo.db
+* urgentisimo.db_2
+* urgentisimo.db_2012
+* urgentisimo.db_empty
+* urgentisimo1.db
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/jxl.jar => app/libs/jxl.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/uno/Urgentisimo/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

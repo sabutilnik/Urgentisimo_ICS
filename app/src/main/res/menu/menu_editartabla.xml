@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--    <item android:visible="true" android:id="@+id/xxx" -->
+<!--        android:titleCondensed="items" -->
+<!--    android:title=" el itemo " -->
+<!--    android:icon="@drawable/border_blue" -->
+<!--    android:enabled="true">  -->
+
+<!--     <item android:id="@+id/item1" android:title="Placeholder"></item> -->
+<!-- 	</item> -->
+    
+    <item android:id="@+id/edit_tabla_editar" android:title="Editar" android:icon="@drawable/check_s"></item>
+    <item android:id="@+id/edit_tabla_borrar" android:title="Borrar" android:icon="@android:drawable/ic_menu_add"></item>
+    <item android:id="@+id/edit_tabla_nuevo" android:title="Nuevo"/>  
+    
+    </menu>

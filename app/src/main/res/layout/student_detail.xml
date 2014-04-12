@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<ScrollView android:id="@+id/ScrollView02"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_margin="5dip">
+
+			<!-- android:weightSum="1" -->
+
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:orientation="vertical"
+				android:id="@+id/linearLayout3">
+				<LinearLayout android:layout_height="wrap_content"
+					android:layout_width="match_parent" android:id="@+id/linearLayout2">
+					<ImageView android:src="@drawable/alumno_foto"
+						android:id="@+id/alumno_foto" android:layout_width="114dp"
+						android:layout_height="114dp"></ImageView>
+					<LinearLayout android:id="@+id/data_alumnos"
+						android:layout_width="match_parent" android:orientation="vertical"
+						android:layout_height="wrap_content">
+						<LinearLayout android:layout_height="wrap_content"
+							android:id="@+id/linearLayout6" android:layout_gravity="right"
+							android:baselineAligned="false" android:layout_width="wrap_content">
+							<ImageButton android:layout_height="wrap_content"
+								android:src="@drawable/photo" android:layout_width="wrap_content"
+								android:id="@+id/takePic"></ImageButton>
+							<ImageButton android:src="@drawable/tareas"
+								android:id="@+id/imageButton2" android:layout_width="wrap_content"
+								android:layout_height="wrap_content"></ImageButton>
+							<ImageButton android:layout_height="wrap_content"
+								android:src="@drawable/del_user" android:layout_width="wrap_content"
+								android:onClick="delAlumno"
+								android:id="@+id/imageButton3"></ImageButton>
+						</LinearLayout>
+						<TextView android:layout_height="wrap_content"
+							android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+							android:id="@+id/alumno_clase" android:text="Clase"></TextView>
+
+						<LinearLayout android:orientation="vertical"
+							android:layout_height="wrap_content" android:id="@+id/clase_combo"
+							android:layout_gravity="left" android:baselineAligned="false"
+							android:layout_width="wrap_content">
+
+							<EditText android:layout_height="wrap_content"
+								android:layout_width="wrap_content" android:id="@+id/clase"
+								android:text="">
+							</EditText>
+						</LinearLayout>
+						<LinearLayout android:orientation="vertical"
+							android:layout_height="wrap_content" android:id="@+id/nombre_combo"
+							android:layout_gravity="left" android:baselineAligned="false"
+							android:layout_width="wrap_content">
+							<TextView android:layout_height="wrap_content"
+								android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+								android:id="@+id/alumno_nombre" android:text="Nombre"></TextView>
+							<EditText android:layout_height="wrap_content"
+								android:layout_width="wrap_content" android:id="@+id/numero_clase"
+								android:text="No.">
+							</EditText>
+
+							<EditText android:layout_height="wrap_content"
+								android:layout_width="wrap_content" android:id="@+id/nombre"
+								android:text="Nom">
+							</EditText>
+							<EditText android:layout_height="wrap_content"
+								android:layout_width="wrap_content" android:id="@+id/apellidos"
+								android:text="Ape">
+							</EditText>
+						</LinearLayout>
+						<TextView android:layout_height="wrap_content"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							android:id="@+id/fecha_nac_v" android:layout_width="match_parent"
+							android:gravity="right" android:text="Fecha de Nacimiento: "></TextView>
+						<EditText android:layout_height="wrap_content"
+							android:layout_width="wrap_content" android:id="@+id/fecha_nac"
+							android:text="">
+						</EditText>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout android:layout_height="wrap_content"
+				android:id="@+id/grupoList" android:orientation="horizontal"
+				android:layout_width="match_parent" android:layout_margin="10dip"
+				android:background="@drawable/border_blue">
+				<TextView android:id="@+id/textView1"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:text="Grupos: " android:layout_marginLeft="5dip"></TextView>
+				<TextView android:id="@+id/grupos_texto"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:text=""></TextView>
+				<LinearLayout android:layout_height="wrap_content"
+					android:id="@+id/ListadoGrupos" android:orientation="horizontal"
+					android:layout_width="match_parent">
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:id="@+id/linearLayout4"
+				android:orientation="vertical" android:background="@drawable/border">
+
+				<LinearLayout android:layout_width="fill_parent"
+					android:id="@+id/data_alumnos_list" android:orientation="vertical"
+					android:layout_weight="1" android:layout_height="0dp">
+
+
+				</LinearLayout>
+
+				<TableLayout android:layout_width="fill_parent"
+					android:id="@+id/tableLayout1" android:layout_weight="1"
+					android:layout_height="wrap_content">
+					<TableRow android:id="@+id/tableRow1"
+						android:layout_width="fill_parent" android:layout_weight="1"
+						android:layout_height="wrap_content">
+						<CheckBox android:text="Comedor" android:id="@+id/ckComedor"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+						<CheckBox android:text="Compensatoria" android:id="@+id/ckCompensatoria"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+						<CheckBox android:text="Solo a casa" android:id="@+id/ckSoloacasa"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+					</TableRow>
+					<TableRow android:id="@+id/tableRow2"
+						android:layout_width="fill_parent" android:layout_weight="1"
+						android:layout_height="wrap_content">
+						<CheckBox android:text="A.c.n.e.e." android:id="@+id/ckAcnee"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+						<CheckBox android:text="Refuerzo" android:id="@+id/ckRefuerzo"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+						<LinearLayout android:layout_height="wrap_content"
+							android:layout_width="fill_parent" android:id="@+id/data_alumnos_list"
+							android:orientation="vertical">
+							<TextView android:id="@+id/textView1"
+								android:layout_height="wrap_content" android:layout_width="wrap_content"
+								android:textAppearance="?android:attr/textAppearanceSmall"
+								android:text="Extraescolares"></TextView>
+							<LinearLayout android:layout_height="wrap_content"
+								android:layout_width="wrap_content" android:id="@+id/data_alumnos_list"
+								android:orientation="horizontal">
+								<CheckBox android:text="" android:id="@+id/ckExtral"
+									android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+								<CheckBox android:text="" android:id="@+id/ckExtram"
+									android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+								<CheckBox android:text="" android:id="@+id/ckExtrax"
+									android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+								<CheckBox android:text="" android:id="@+id/ckExtraj"
+									android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+								<CheckBox android:text="" android:id="@+id/ckExtrav"
+									android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+								<CheckBox android:text="" android:id="@+id/ckBlog"
+									android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+							</LinearLayout>
+						</LinearLayout>
+					</TableRow>
+				</TableLayout>
+
+			</LinearLayout>
+			<LinearLayout android:id="@+id/linearLayout21"
+				android:orientation="horizontal" android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				<ImageButton android:src="@drawable/agrega_alumno"
+					android:id="@+id/agrega_alumno" android:layout_height="wrap_content"
+					android:layout_width="wrap_content">
+				</ImageButton>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

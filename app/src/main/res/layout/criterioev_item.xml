@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<TextView android:layout_weight="1" android:layout_height="wrap_content"
+		android:text="TextView" android:id="@+id/criterioEv"
+		android:layout_width="0dp"></TextView>
+	<TextView android:layout_weight="1" android:layout_height="wrap_content"
+		android:text="TextView" android:id="@+id/bloque" android:layout_width="0dp"></TextView>
+	<Button android:layout_weight="1" android:layout_height="wrap_content"
+		android:id="@+id/critBorrar" android:text="Button"
+		android:layout_width="0dp">
+	</Button>
+</LinearLayout>

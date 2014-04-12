@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/addActividadMenu" android:title="@string/addActivity" android:icon="@android:drawable/ic_menu_add"></item>
+    <item android:id="@+id/addCriterioMenu" android:title="@string/addCriterio" android:icon="@android:drawable/ic_menu_add"></item>
+    <item android:id="@+id/addContenidoMenu" android:title="@string/addContenido" android:icon="@android:drawable/ic_menu_add"></item>
+    <item android:id="@+id/addObjetivoMenu" android:title="@string/addObjetivo" android:icon="@android:drawable/ic_menu_add"></item>
+    <item android:id="@+id/addAsignaturaMenu" android:title="@string/addAsignatura" android:icon="@android:drawable/ic_menu_add"></item>
+    <item android:id="@+id/showActividadesMenu" android:title="@string/actividades"></item>
+    
+
+</menu>

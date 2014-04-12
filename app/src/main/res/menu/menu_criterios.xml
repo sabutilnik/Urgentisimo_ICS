@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/contenidos_sort" android:title="Contenidos" android:icon="@drawable/check_s"></item>
+	<item android:id="@+id/actividades_sort" android:title="Actividades" android:icon="@drawable/check_s"></item>
+<!--     <item android:id="@+id/asignatura_sort" android:title="Asignatura" android:icon="@drawable/check_s"></item> -->
+<!--     <item android:id="@+id/bloque_sort" android:title="Bloques" android:icon="@android:drawable/ic_menu_add"></item> -->
+<!--     <item android:id="@+id/contenido" android:title="Contenidos" android:icon="@android:drawable/ic_menu_add"></item> -->
+</menu>

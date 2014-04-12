@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:minWidth="300dip"
+	android:minHeight="400dip" android:weightSum="1">
+	<TextView android:text="nombre" android:id="@+id/tvNombre1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<EditText android:id="@+id/etNobmre1" android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+	</EditText>
+	<TextView android:text="descripción" android:id="@+id/tvDescripcion1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<EditText android:id="@+id/etDescripcion1"
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:inputType="textMultiLine"></EditText>
+	<LinearLayout android:id="@+id/linearLayout3432"
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+
+		<Button android:text="OK" android:id="@+id/bOK"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="Cancelar" android:id="@+id/bCancel"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="Borrar" android:id="@+id/bBorrar"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/actividad_sort" android:title="Actividad" android:icon="@android:drawable/ic_menu_add"></item>
+    <item android:id="@+id/idactividad_sort" android:title="Actividad General" android:icon="@android:drawable/ic_menu_add"></item>
+    <item android:id="@+id/idtipoactividad_sort" android:title="Tipo de Actividad" android:icon="@android:drawable/ic_menu_add"></item>
+    <item android:id="@+id/idagrupamiento_sort" android:title="Agrupamiento" android:icon="@android:drawable/ic_menu_add"></item>
+    <item android:id="@+id/fechafin_sort" android:title="Fecha" android:icon="@android:drawable/ic_menu_add"></item>
+</menu>

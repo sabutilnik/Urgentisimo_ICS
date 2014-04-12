@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/borrarActividad" android:title="@string/borrar" android:icon="@android:drawable/ic_menu_add"></item>
+    <item android:id="@+id/nuevaActividad" android:title="@string/nueva" android:icon="@android:drawable/ic_menu_add"></item>
+    <item android:id="@+id/copiarActividad" android:title="@string/copiar" android:icon="@android:drawable/ic_menu_add"></item>
+        <item android:id="@+id/saveActividad" android:title="@string/guardar" android:icon="@android:drawable/ic_menu_add"></item>
+</menu>

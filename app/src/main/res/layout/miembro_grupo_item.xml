@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:orientation="horizontal">
+		<LinearLayout android:id="@+id/linearLayout1a"
+			android:layout_height="wrap_content" android:layout_width="match_parent"
+			android:orientation="vertical">
+			<TextView android:id="@+id/nombreMiembro"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:text="nombre" android:clickable="true" android:textSize="15dip"
+				android:layout_marginLeft="10dip" android:layout_marginTop="5dip"></TextView>
+				
+			<LinearLayout android:id="@+id/fechasMiembroGrupo"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:orientation="vertical">
+				<TextView android:id="@+id/fh_alta_grupos"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:text="fecha alta:" android:clickable="true"
+					android:textSize="15dip" android:layout_marginLeft="10dip"
+					android:layout_marginTop="5dip"></TextView>
+				<TextView android:id="@+id/fh_baja_grupos"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:text="fecha_baja:" android:clickable="true"
+					android:textSize="15dip" android:layout_marginLeft="10dip"
+					android:layout_marginTop="5dip"></TextView>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">CURSO 2013 - 2014</string>
+    <string name="app_name">Urgentisimo</string>
+    <string name="no_actividad">No hay actividades para hoy</string>
+    <string name="reset_database">Reset Database</string>
+    <string name="backup_database">Backup Database</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title">titulo</string>
+    <string name="enter_comment">sdfasdfe</string>
+    <string name="addActivity">Actividad</string>
+    <string name="addCriterio">Criterio de Evaluación</string>
+    <string name="addContenido">Contenido</string>
+    <string name="addObjetivo">Objetivo</string>
+    <string name="addAsignatura">Asignatura</string>
+    <string name="actividades">Actividades</string>
+    <string name="nueva">Nueva</string>
+    <string name="borrar">Borrar</string>
+    <string name="copiar">Copiar</string>
+    <string name="guardar">Guardar</string>
+
+    
+    
+ 
+</resources>

@@ -34,6 +34,23 @@ public class Mainfragment extends ListFragment {
 
 	private static final String TAG = "URGENTISIMO : MainFragment : ";
     public NotificationsFragment notifications;
+    public String fecha_inicio;
+    public String fecha_fin;
+
+    public void setFechas(String trimestre) {
+        if (trimestre.equalsIgnoreCase("1")) {
+            fecha_inicio = "2013-09-01";
+            fecha_fin = "2013-12-01'";
+        }
+        if (trimestre.equalsIgnoreCase("2")) {
+            fecha_inicio = "2013-09-01";
+            fecha_fin = "2013-12-01";
+        }
+        if (trimestre.equals("3")) {
+            fecha_inicio = "2013-09-01";
+            fecha_fin = "2013-12-01";
+        }
+    }
 	
 	  public interface onFragmentChange {
 	        public void onArticleSelected(int position);
